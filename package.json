@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "clean": "rimraf ./build",
-    "build": "npm-run-all lint clean && tsc",
+    "build": "npm-run-all format lint test clean && tsc",
     "start": "node src",
     "local": "ts-node src",
     "local:watch": "nodemon src -e ts,json --exec 'npm run local'",
@@ -36,3 +36,4 @@
   },
   "dependencies": {}
 }
+
