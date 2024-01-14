@@ -10,8 +10,8 @@ describe("Server", function () {
 
   it("should get /", async () => {
     const res = await request.get("/");
-    
-    expect(res.status).toBe(200)
-    expect(res.body).toEqual({"data": "It Works!"})
+
+    expect(res.status).toBe(200);
+    expect(res.body).toEqual({ data: "It Works!" });
   });
 });
