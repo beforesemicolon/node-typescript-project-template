@@ -18,7 +18,7 @@
         "local": "nodemon --watch src -e ts --exec npm run build",
         "build:cjs-min": "esbuild `find src \\( -name '*.ts' ! -name '*.spec.ts' ! -name '*.test.ts' ! -name 'client.ts' \\)` --minify --outdir=dist/cjs --platform=node --sourcemap --format=cjs --keep-names --target=esnext",
         "build:esm-min": "esbuild `find src \\( -name '*.ts' ! -name '*.spec.ts' ! -name '*.test.ts' ! -name 'client.ts' \\)` --minify --outdir=dist/esm --platform=node --sourcemap --format=esm --keep-names --target=esnext",
-        "build:browser": "esbuild src/client.ts --bundle --minify --keep-names --sourcemap --target=esnext --outfile=dist/client.js",
+        "build:browser": "esbuild src/client.ts --bundle --minify --keep-names --sourcemap --target=esnext --outfile=dist/client.min.js",
         "build": "rm -rf dist && npm-run-all lint test && tsc --emitDeclarationOnly && npm-run-all build:cjs-min build:esm-min build:browser",
         "lint": "eslint ./src && prettier --check .",
         "format": "eslint ./src --fix && prettier --write ."

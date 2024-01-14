@@ -24,6 +24,8 @@ Includes:
 -   `src/*`: package logic files and folders;
 -   `src/*.(spec|test).ts`: test files;
 
+**Read the [Blog Post](https://elsoncorreia.medium.com/setup-for-a-typescript-node-npm-package-project-90977401e051) About this Setup.**
+
 ## Install
 
 ```
