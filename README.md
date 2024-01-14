@@ -1,5 +1,5 @@
 # node-typescript-project-template
-A simple template for a Node + Typescript project
+A simple template for a Node + Typescript server project
 
 This template offers additional setups. Check other branches or click following links:
 - [NPM TypeScript Node Package Template](https://github.com/beforesemicolon/node-typescript-project-template/tree/npm-package)
