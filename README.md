@@ -1,11 +1,13 @@
 # node-typescript-project-template
 A simple template for a Node + Typescript project
 
-## Covers All Essential Setup
-- Local run with hot reload
-- Linting and Formatting 
-- Testing
-- Production build/packaging
-- Production run
+## Need to Build an NPM Package?
+Try the [NPM TypeScript Node Package Template](https://github.com/beforesemicolon/node-typescript-project-template/tree/npm-package)
 
-Read Article about initial setup => [Blog Post](https://medium.com/before-semicolon/how-to-setup-a-typescript-nodejs-server-2023-16f3874f2ce5)g
+## Need a Node Server?
+Try the [TypeScript Node Server Template](https://github.com/beforesemicolon/node-typescript-project-template/tree/node-server)
+
+
+## Read the Article about initial setup
+
+[Blog Post](https://medium.com/before-semicolon/how-to-setup-a-typescript-nodejs-server-2023-16f3874f2ce5)
