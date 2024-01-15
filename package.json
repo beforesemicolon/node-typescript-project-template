@@ -6,6 +6,7 @@
         "node": ">=18.16.0"
     },
     "type": "module",
+    "types": "./dist/types/index.d.ts",
     "exports": {
         "import": "./dist/esm/index.js",
         "require": "./dist/cjs/index.js",
