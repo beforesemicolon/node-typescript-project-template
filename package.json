@@ -2,6 +2,7 @@
   "name": "node-typescript-project-template",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "clean": "rimraf ./build",
     "build": "npm-run-all format lint test clean && tsc",
